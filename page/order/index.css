@@ -1,0 +1,83 @@
+body {
+    background-color: #F8F8F8;
+    font-size: 14rem;
+}
+
+
+nav.types {
+    padding: 10rem 20rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+}
+
+nav.types>.type {
+    padding: 2rem 0;
+}
+
+nav.types>.type.sel {
+    color: var(--themeColor);
+    border-bottom: 1px solid var(--themeColor);
+}
+
+.orderList>.order:first-of-type {
+    margin-top: 5rem;
+}
+
+.orderList>.order {
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 20rem auto 0;
+    background-color: #fff;
+    padding: 10rem;
+    border-radius: 12rem;
+}
+
+.orderList>.order .sBar {
+    border-bottom: 1rem solid #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10rem;
+    font-weight: 500;
+}
+
+.orderList>.order .maincnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 0;
+}
+
+.orderList>.order .maincnt .pull_left {
+    display: flex;
+}
+
+.orderList>.order .maincnt .pull_left .avator img {
+    width: 50rem;
+    height: 50rem;
+    border-radius: 50%;
+}
+
+.orderList>.order .maincnt .pull_left .info {
+    margin-left: 8rem;
+}
+
+.orderList>.order .maincnt .pull_left .info .project {
+    color: #555;
+    font-size: 12rem;
+    margin-top: 3rem;
+}
+
+.orderList>.order .maincnt .costs .toa {
+    font-size: 12rem;
+    color: gray;
+}
+
+.orderList>.order .maincnt .costs .iconfont {
+    font-size: 12rem;
+}
+
+.orderList>.order .maincnt .costs .num_money {
+    font-size: 18rem;
+}

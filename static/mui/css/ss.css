@@ -1,0 +1,142 @@
+body {
+    font-size: 14px; 
+}
+/*棣栭〉*/
+.mui-row-header{ width:100%; height:235px; text-align:center;}
+.mui-row-header img{ width:100%; height:235px;}
+
+.mui-row-header .mui-search{ width: 74%; overflow: hidden; margin-left: 13%; opacity: 0.8; position:relative; margin-top:-200px; }
+.mui-row-header .mui-search .mui-input-clear{ color: #000000; background: #FFFFFF; border-radius: 15px; height: 34px;}
+
+.mui-row-card{ width: 100%; background: #fff; height: auto; position: relative; box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .2); z-index: 1;}
+.mui-row-card .mui-table-view{ margin: 0; padding: 0; padding: 20px 0 30px;}
+.mui-table-view.mui-grid-view .mui-table-view-cell {
+   padding: 10px 0 0 0;
+}
+   .mui-table-view.mui-grid-view .mui-table-view-cell > a:not(.mui-btn) {
+       margin: -10px 0 0 0px;
+   }
+margin-right .mui-row-card .mui-table-view li {
+   position: relative;
+   z-index: 3;
+}
+.mui-row-card .mui-table-view li h4{ font-weight: normal; font-size: 14px;}
+.mui-row-card img{ position: absolute; box-shadow: none; top: 35px; width: 32px; left: 22%; z-index: 2;}
+.mui-row-card h4{ color: #100e0e;}
+.mui-row-card p{ color: #d8d7d7; font-size: 13px; }
+
+
+.mui-row .mui-card{ margin: 0; box-shadow: none;}
+   .mui-row .mui-card img {
+       width: 100%;
+   }
+.mui-card-footer:before, .mui-card-header:after{ height: 0;}
+.mui-row .mui-card-header{ color: #100e0e;}
+   .mui-row .mui-card-header p.mui-4s-p span {
+       color: #818080;
+   }
+   .mui-row .mui-card-header p.mui-4s-p { font-size:14px; color:#333;
+   }
+.mui-row .mui-card-content-inner{ color: #2d2b2c; padding: 10px 15px;}
+
+.mui-row{ margin-top: 10px;}
+.mui-row .mui-table-view:before{ background: #f5f5f5; height: 4px;}
+   .mui-row h4 {
+       font-weight: normal;
+       font-size: 15px;
+   }
+.mui-row p{ margin-bottom: 0;}
+.mui-row p span{ color: #d33239;}
+
+.mui-row-card .mui-table-view:after{ height: 0;}
+.mui-row-card .mui-table-view:before{ height: 0;}
+/*nav*/
+
+.mui-title{ color: #100e0e;}
+
+.mui-row-nav{ width: 100%; background: #fff;}
+.mui-row-nav img{ width: 100%;}
+.mui-row-nav div{ padding: 5px 15px;}
+
+.mui-table-cell-title{ padding: 10px;}
+.mui-row-nav .mui-table-view span{ color: #000; line-height: 34px;}
+.mui-row-nav .mui-table-view img{ width: auto; margin-right: 5px; margin-top: 5px; max-height:20px}
+
+
+.mui-md_img{ width: 50%; margin-right: 10px;}
+.mui-md_img01{ width: 80%; margin-left: 10%;}
+.mui-row .mui-media-body{ margin-top: 20px;}
+.mui-media-body0{ text-align: center;}
+.mui-row .mui-table-view-cell:after{ height: 0;}
+.mui-row ul.mui-table-view{ padding: 20px 0;}
+.mui-table-view-cell > a:not(.mui-btn).mui-active {
+   background-color: #fff
+}
+
+
+
+/*浠ｉ噾鍒�*/
+.mui-dj-nav{ width: 100%; height: 40px; line-height: 40px; background: #fff;}
+.mui-dj-nav a{ width: 25%; text-align: center; color: #a2a0a1; float: left;}
+   .mui-dj-nav .mui-bx-activ {
+       color: #007aff;
+       border-bottom: 2px solid #007aff;
+   }
+
+.mui-dj-main dl{ background:#fff; background-size:100% auto ; padding:15px 3%; box-shadow: 0px 0px 4px -1px rgba(0, 0, 0, .5); margin: 10px 0;}
+.mui-dj-main dl dt{ margin-right:15px;}
+.mui-dj-main dl dt img{ width: auto; display: block; height:55px;}
+
+.mui-dj-main dl dd h3{ font-size: 14px; font-weight: normal; overflow:hidden; line-height:24px; margin:0; }
+.mui-dj-main dl dd p{ margin: 0;}
+.mui-dj-main dl dd p a{ color: #ef4641;}
+
+.mui-cash-dl{ background: #fff;padding: 15px 10px; margin: 0;}
+.mui-cash-dl dt{ width: 19%; margin-right: 10px; float: left; }
+.mui-cash-dl dt img{ width: 100%; display: block;}
+   .mui-cash-dl dd {
+       margin-left: 0;
+       line-height: 5vw;
+       overflow:hidden;
+   }
+.mui-cash-dl dd h3{ font-weight: normal; font-size: 16px;}
+.mui-cash-dl dd p span{ color: #ef4641; margin-right: 15px; font-size: 16px;}
+
+.mui-cash-dl span.mui-pull-right{ font-size: 14px;}
+.mui-row .mui-numbox{ height: 25px;}
+.mui-table-view:before{ height: 0;}
+.mui-cash-p{ padding: 10px; font-size: 18px;}
+
+.mui-row-but{ margin: 10px;}
+.mui-row-but button{ width: 100%; font-size: 16px;}
+
+
+/*淇濋櫓棰勭害*/
+.mui-row-nav div h3 {
+   font-weight: normal;
+   font-size: 16px;
+}
+
+.mui-row-nav div h4 {
+   font-weight: normal;
+   font-size: 17px;
+}
+
+.btn-btn {
+   color: #0a0a0a;
+   font-size: 18px;
+   line-height: 46px;
+}
+
+   .btn-btn span {
+       width: 3%;
+   }
+
+       .btn-btn span img {
+           width: 100%;
+       }
+
+.reser-text {
+   margin-bottom: 0;
+   color: #333;
+}

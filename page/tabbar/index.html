@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <script src="../../static/util/rem.js"></script>
+    <link rel="stylesheet" href="../../static/mui/css/mui.min.css">
+    <link rel="stylesheet" href="../../app.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <iframe id="curPage" src="" frameborder="0"></iframe>
+    <form class="findKForm hide" action="" onsubmit="return checkForm()">
+        <div class="title">找TA</div>
+        <div class="bigCicle"></div>
+        <div class="danTypeToa">
+            选择方式
+        </div>
+        <div class="danTypes types" data-name="fType">
+            <div class="type specify">
+                <img src="./../../static/maI/specify.png" alt="">
+                指定
+            </div>
+            <div class="type random">
+                <img src="./../../static/maI/random.png" alt="">
+                盲盒
+            </div>
+        </div>
+        <div class="mainCnt">
+            <div class="iptItem">
+                <div class="iptToa">
+                    性别
+                </div>
+                <div class="ipt sex types" data-name="sex">
+                    <div class="type">不限</div>
+                    <div class="type">小哥哥</div>
+                    <div class="type">小姐姐</div>
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="iptToa">
+                    等级
+                </div>
+                <div class="ipt sex types" data-isDuoXuan="1" data-name="level">
+                    <div class="type">首席</div>
+                    <div class="type">金牌</div>
+                    <div class="type">银牌</div>
+                    <div class="type">镇店</div>
+                    <div class="type">普通</div>
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="iptToa">
+                    备注留言 (0/50字)
+                </div>
+                <div class="ipt">
+                    <textarea name="" id="remark" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <button type="submit" class="toSearch">查找</button>
+            <button type="submit" class="anPai">安排</button>
+        </div>
+        <div class="iconfont icon-tubiaozhizuo"></div>
+    </form>
+    <section class="tabbar"></section>
+    <div class="myMask" onclick="hideMyMask()"></div>
+    <script src="../../static/mui/js/mui.js"></script>
+    <script src="../../static/util/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

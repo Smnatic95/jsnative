@@ -1,0 +1,134 @@
+.topBar {
+    background: linear-gradient(to right, #2B74FE, #AF14F6);
+    color: #fff;
+    height: 100rem;
+    padding: 0 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    padding-bottom: 30rem;
+}
+
+.topBar .pull_left {
+    display: flex;
+    align-items: center;
+}
+
+.topBar .thumb {
+    margin-right: 12rem;
+}
+
+.topBar .thumb img {
+    width: 60rem;
+    height: 60rem;
+    border-radius: 50%;
+}
+
+.topBar .uinfo .uname {
+    font-size: 17rem;
+}
+
+.topBar .uinfo .uid {
+    font-size: 12rem;
+    margin-top: 5rem;
+}
+
+.pull_right .center_my {
+    font-size: 12rem;
+}
+
+.pull_right .center_my .icon-youjiantou1 {
+    font-size: 14rem
+}
+
+
+.funcs {
+    background-color: #fff;
+}
+
+.funcs.main {
+    width: 90vw;
+    margin: 0 auto;
+    border-radius: 15rem;
+    margin-top: -30rem;
+    padding: 12rem 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.funcs.main .func {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.funcs.main .func .iconfont {
+    font-size: 35rem;
+    margin-bottom: 10rem;
+}
+
+.funcs.main .func .icon-dingdan1 {
+    color: #2B74FE;
+}
+
+.funcs.main .func .icon-qianbao1 {
+    color: #AF14F6;
+}
+
+.funcs.main .func .toa {
+    font-size: 13rem;
+}
+
+.funcs.other {
+    margin-top: 15rem;
+}
+
+.funcs.other .func {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem 0;
+    border-bottom: 1rem solid #eee;
+}
+
+.funcs.other .func:last-of-type {
+    border: none;
+}
+
+.funcs.other .func .pull_left {
+    display: flex;
+}
+
+.funcs.other .func .pull_left .toaFont {
+    font-size: 16rem;
+    width: 20rem;
+    height: 20rem;
+    line-height: 20rem;
+    text-align: center;
+    background-color: #AF14F6;
+    border-radius: 50%;
+    color: #fff;
+    margin-right: 6rem;
+}
+
+.funcs.other .func .pull_left .toa{
+    height: 20rem;
+    line-height: 20rem;
+    font-size: 13rem;
+}
+
+.funcs.other .func .pull_left .toaFont.icon-shezhi1 {
+    background-color: #E2835E;
+}
+
+.funcs.other .func .pull_left .toaFont.icon-kefu {
+    background-color: #F25B5B;
+}
+
+.funcs.other .func .icon-youjiantou {
+    color: gray;
+    font-size: 14rem;
+}

@@ -1,0 +1,94 @@
+body {
+    background-color: #F5F5F5;
+}
+
+/* 
+   *轮播
+ */
+.swiper-container {
+    width: 100vw;
+    height: 200px;
+}
+
+.swiper-container .swiper-slide img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 
+   *公告
+ */
+.gongGao {
+    display: flex;
+    padding-left: 10rem;
+    height: 30rem;
+    line-height: 30rem;
+    margin: 10rem 0;
+    background-color: #F5F2DA;
+}
+
+.gongGao .pull_left {
+    width: 30rem;
+    flex-shrink: 0;
+    color: var(--themeColor);
+}
+
+.gongGao .pull_left .icon-laba{
+    font-size: 23rem;
+}
+
+.gongGao .content {
+    width: calc(100vw - 30rem);
+    overflow: hidden;
+}
+
+.gongGao .content .text {
+    display: inline-block;
+    color: black;
+    white-space: nowrap;
+    padding-right: 300px;
+    margin-bottom: 0;
+}
+
+/* 
+   *分类
+ */
+
+ section .title{
+    font-size: 22rem;
+    padding-bottom: 5rem;
+    padding-left: 10rem;
+    padding-top: 5rem;
+ }
+
+.cat_box .categorys {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    background-color: #fff;
+    padding: 15rem 0;
+}
+
+.cat_box .categorys::-webkit-scrollbar {
+    display: none;
+}
+
+.cat_box .categorys>div {
+    flex-shrink: 0;
+    width: 15%;
+    padding: 0 10rem;
+    box-sizing: border-box;
+    margin: 0 10rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 16rem;
+    border-radius: 5rem;
+}
+
+/*
+*推荐
+*/
+.recommend_box {
+    padding-top: 7rem;
+}

@@ -1,0 +1,232 @@
+body {
+    background-color: #F5F5F5;
+}
+
+.myMask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 998;
+    background-color: #000;
+    opacity: 0;
+    display: none;
+}
+
+
+#curPage {
+    width: 100vw;
+    height: calc(100vh - 56rem);
+}
+
+.tabbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 997;
+    border-top: 1.5rem solid #ccc;
+    height: 56rem;
+}
+
+.tabbar .bigCycle {
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: #Fff;
+    border-radius: 50%;
+    border-top: 1.5rem solid #ccc;
+}
+
+.tabbar>.item {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 3rem 0;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #707070;
+    z-index: 999;
+    background-color: #fff;
+}
+
+.tabbar>.item.xiaDan {
+    color: var(--myBlue);
+}
+
+.tabbar>.item.xiaDan img,
+.tabbar>.item.xiaDan .title {
+    position: relative;
+    bottom: 6rem;
+}
+
+.tabbar>.item.sel {
+    color: #FF0000;
+}
+
+.tabbar>.item img {
+    width: 24rem;
+    height: 24rem;
+}
+
+.tabbar>.item .title {
+    font-size: 13rem;
+}
+
+.findKForm {
+    width: 86vw;
+    background-color: #fff;
+    border-radius: 25rem;
+    padding: 20rem 10rem 10rem;
+    box-shadow: 2rem 2rem 5rem #ccc;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transition: all .1s ease-out;
+    transform: translate(-50%, -76rem);
+    z-index: 999;
+}
+
+.findKForm.hide {
+    transform: translate(-50%, calc(100% + 50rem));
+}
+
+.findKForm .danTypes {
+    width: 80vw;
+    margin: 0 auto;
+    line-height: 60rem;
+    display: flex;
+    border-radius: 10rem;
+}
+
+.findKForm .danTypes .type {
+    min-width: 35%;
+    text-align: center;
+    margin-right: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.findKForm .danTypes .type img{
+    margin: 0 8rem;
+    width: 25rem;
+    height: 25rem;
+}
+
+.findKForm .icon-tubiaozhizuo {
+    height: 40rem;
+    width: 40rem;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40rem;
+    font-size: 18rem;
+    color: #fff;
+    position: absolute;
+    bottom: -20rem;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background-color: #7B7F8B;
+}
+
+.danTypeToa {
+    font-size: 20rem;
+    font-weight: 600;
+    padding-bottom: 10rem;
+}
+
+.findKForm .title {
+    width: 40rem;
+    height: 40rem;
+    line-height: 40rem;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    font-size: 14rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--themeColor);
+    color: #fff;
+    z-index: 996;
+}
+
+.findKForm .bigCicle {
+    width: 55rem;
+    height: 55rem;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    font-size: 14rem;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+.iptItem .iptToa {
+    color: gray;
+    padding: 10rem 0;
+}
+
+.iptItem .ipt.types {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.types>.type {
+    width: 30%;
+    background-color: #F4F4FC;
+    text-align: center;
+    height: 35rem;
+    line-height: 35rem;
+    border-radius: 15rem;
+    font-size: 14rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.types>.type.sel {
+    background-color: #DAEBFD;
+    color: #5B92D2;
+}
+
+.iptItem .ipt textarea {
+    width: 100%;
+    height: 100rem;
+}
+
+.findKForm button[type=submit] {
+    padding: 0;
+    background-color: #4796FF;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 20rem;
+    height: 50rem;
+    line-height: 50rem;
+    text-align: center;
+    border-radius: 20rem;
+}
+
+.findKForm button[type=submit].anPai {
+    background-color: var(--themeColor);
+}
+
+.mainCnt {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}

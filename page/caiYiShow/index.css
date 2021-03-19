@@ -1,0 +1,78 @@
+
+.shows {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.shows>.show {
+    background-color: #fff;
+}
+
+.shows>.show .avator {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+}
+
+.shows.audio>.show {
+    display: flex;
+    align-items: center;
+    padding: 5rem 8rem;
+    border: 2rem solid #EB3941;
+    justify-content: space-between;
+    margin: 10rem 0;
+}
+
+.shows.audio>.show:nth-of-type(even) {
+    border-color: #809A89;
+}
+
+.shows.audio>.show .intro_p {
+    display: flex;
+    width: 24%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shows.audio>.show .mp3 {
+    width: 70%;
+}
+
+.shows.audio>.show .mp3 audio {
+    width: 100%;
+}
+
+.shows.video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shows.video .show {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5rem;
+    margin-bottom: 15rem;
+    border-radius: 5rem;
+}
+
+.shows.video>.show:nth-last-child(2),
+.shows.video>.show:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
+.shows.video .show .avator {
+    margin-bottom: 10rem;
+}
+
+.shows.video .show .video_box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.shows.video .show video {
+    width: 100%;
+}
