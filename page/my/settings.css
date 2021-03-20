@@ -1,0 +1,41 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #EDEDED;
+}
+
+.settings {
+    background-color: #fff;
+    padding-left: 12rem;
+}
+
+.settings>.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 12rem 5rem 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5rem;
+}
+
+.settings>.setting:last-of-type {
+    border: none;
+}
+
+.settings>.setting .avator img {
+    width: 60rem;
+    height: 60rem;
+    border-radius: 5rem;
+}
+
+.settings>.setting .pull_right {
+    display: flex;
+    align-items: center;
+    color: #555;
+}
+
+.settings>.setting .pull_right .icon-youjiantou {
+    color: gray;
+    margin-left: 10rem;
+    font-size: 14rem;
+}
