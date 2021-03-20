@@ -144,14 +144,26 @@ body {
     padding: 12rem;
     border-radius: 15rem 15rem 0 0;
     font-size: 14rem;
-    transform: translate(0, 100%);
+    transform: translate(0, calc(100% + 60rem));
     transition: all .2s ease-in-out;
+    padding-top: 40rem;
+}
+
+.xiaDanForm.out{
+    transform: translate(0,0)
 }
 
 .xiaDanForm .box_price {
     color: #E7656A;
     text-align: center;
     font-size: 25rem;
+}
+
+.xiaDanForm .xzStatusToa{
+    padding-top: 15rem;
+    text-align: center;
+    font-size: 12rem;
+    color: gray;
 }
 
 .xiaDanForm .box_price .iconfont {
@@ -184,9 +196,13 @@ body {
     margin-bottom: 10rem;
 }
 
+.xiaDanForm section.gg .types .type.sel{
+    background-color: #419BFB;
+    color: #fff;
+}
 
 .xiaDanForm section.buy_counts {
-    padding: 10rem 0;
+    padding: 15rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -214,16 +230,27 @@ body {
 
 .xiaDanForm section.wechat {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
 .xiaDanForm section.wechat .toa {
-    width: 80rem;
+    width: 90rem;
+}
+
+.xiaDanForm section.wechat .toa.required{
+    position: relative;
+}
+
+.xiaDanForm section.wechat .toa.required::before{
+    content: '*';
+   color: red;
+
 }
 
 .xiaDanForm section.wechat input {
     background-color: #EDF1FD;
-    width: calc(100% - 80rem);
+    width: calc(100% - 100rem);
     height: 30rem;
     font-size: 14rem;
     border-radius: 15rem;
@@ -232,5 +259,33 @@ body {
 
 .xiadanRightNow {
     border-top: 2px solid #8DDDFA;
-    margin-top: 15rem;
+    margin-top: 30rem;
+}
+
+.xiaDanForm>.close{
+    position: absolute;
+    top: 20rem;
+    right: 20rem;
+    color: gray;
+}
+
+.xiaDanForm>div.mzImg{
+    width: 80rem;
+    height: 80rem;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: absolute;
+    top: -50rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.xiaDanForm>div.mzImg img{
+    width: 70rem;
+    height: 70rem;
+    border-radius: 50%;
 }
