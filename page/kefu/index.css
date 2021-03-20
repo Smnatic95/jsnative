@@ -1,0 +1,236 @@
+body {
+    background-color: #419BFB;
+    /* background: linear-gradient(to bottom,#3392FC,#419BFB); */
+    padding-bottom: 65rem;
+}
+
+
+.cardIntru {
+    width: 95vw;
+    margin: 20rem auto 30rem;
+    background-color: #fff;
+    border-radius: 10rem;
+    padding-bottom: 10rem;
+}
+
+.cardIntru section.ff {
+    padding: 10rem 15rem;
+}
+
+.cardIntru .kefuInfo {
+    display: flex;
+    padding-bottom: 8rem;
+    border-bottom: 1px solid #eee;
+}
+
+.cardIntru .avator {
+    position: relative;
+}
+
+.cardIntru .avator img {
+    width: 60rem;
+    height: 60rem;
+    border-radius: 50%;
+}
+
+.cardIntru .kefuInfo .pull_center {
+    width: calc(100% - 120rem);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 7rem 5rem 7rem 10rem;
+}
+
+.cardIntru .kefuInfo .moreInfo {
+    font-size: 14rem;
+    color: gray;
+}
+
+.cardIntru .kefuInfo .status {
+    width: 60rem;
+    height: 30rem;
+    text-align: center;
+    line-height: 30rem;
+    background-color: #5DD3C8;
+    border-radius: 15rem;
+    font-size: 10rem;
+    color: #fff;
+}
+
+
+.cardIntru .detail1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8rem;
+}
+
+.cardIntru .detail1 .pull_left .tags {
+    display: flex;
+}
+
+.cardIntru .detail1 .pull_left .tags .tag {
+    padding: 0 8rem;
+    background-color: #EBEEFD;
+    margin-right: 5rem;
+    font-size: 12rem;
+    border-radius: 15rem;
+}
+
+.cardIntru .detail1 .pull_left .signature {
+    font-size: 14rem;
+    margin-top: 8rem;
+}
+
+.cardIntru .detail1 .price_step1 {
+    color: #D27C7E;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 290rem;
+}
+
+
+.swiper-container .mz {
+    width: 100%;
+    height: 250rem;
+}
+
+
+.voiceBox {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -20rem;
+}
+
+.voiceBox .voiceControls {
+    width: 150rem;
+    border: 2px solid #fff;
+}
+
+.chooseT,
+.xiadanRightNow {
+    width: 40vw;
+    margin: 0 auto;
+    height: 40rem;
+    line-height: 40rem;
+    box-shadow: 1px 1px 18px #247FDC;
+    text-align: center;
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-radius: 60rem;
+    background-color: #419BFB;
+}
+
+.operation_bottom {
+    width: 100%;
+    box-shadow: 1px 1px 5px #ccc;
+    box-sizing: border-box;
+    padding: 10rem 0 15rem;
+    background-color: #419BFB;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.xiaDanForm {
+    width: 100vw;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    padding: 12rem;
+    border-radius: 15rem 15rem 0 0;
+    font-size: 14rem;
+    transform: translate(0, 100%);
+    transition: all .2s ease-in-out;
+}
+
+.xiaDanForm .box_price {
+    color: #E7656A;
+    text-align: center;
+    font-size: 25rem;
+}
+
+.xiaDanForm .box_price .iconfont {
+    font-size: 20rem;
+}
+
+.xiaDanForm section.gg {
+    padding: 15rem 0 5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.xiaDanForm section.gg .title {
+    padding-bottom: 15rem;
+}
+
+.xiaDanForm section.gg .types {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.xiaDanForm section.gg .types .type {
+    margin-left: 10rem;
+    background-color: #EDF1FD;
+    min-width: 30%;
+    font-size: 13rem;
+    text-align: center;
+    height: 30rem;
+    line-height: 30rem;
+    border-radius: 12rem;
+    margin-bottom: 10rem;
+}
+
+
+.xiaDanForm section.buy_counts {
+    padding: 10rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.xiaDanForm section.buy_counts .operation {
+    display: flex;
+    align-items: center;
+}
+
+.xiaDanForm section.buy_counts .operation>div {
+    width: 30rem;
+    height: 30rem;
+    text-align: center;
+    line-height: 30rem;
+    background-color: #EEF0FC;
+    border-radius: 50%;
+    margin-left: 5rem;
+}
+
+.xiaDanForm section.buy_counts .operation .curCount {
+    background-color: #000;
+    color: #fff;
+}
+
+.xiaDanForm section.wechat {
+    display: flex;
+    align-items: center;
+}
+
+.xiaDanForm section.wechat .toa {
+    width: 80rem;
+}
+
+.xiaDanForm section.wechat input {
+    background-color: #EDF1FD;
+    width: calc(100% - 80rem);
+    height: 30rem;
+    font-size: 14rem;
+    border-radius: 15rem;
+    margin: 0;
+}
+
+.xiadanRightNow {
+    border-top: 2px solid #8DDDFA;
+    margin-top: 15rem;
+}

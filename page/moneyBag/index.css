@@ -56,6 +56,7 @@ section.Balance .coinBox .cnt .info {
 }
 
 section.Balance .coinBox .cnt .detail .operation .charge {
+    display: inline-block;
     width: 40rem;
     height: 20rem;
     font-size: 12rem;
@@ -68,6 +69,7 @@ section.Balance .coinBox .cnt .detail .operation .charge {
 
 
 section.costsLog .logs{
+    border-radius: 6rem;
     box-shadow: 0 0 8px #ccc;
     margin: 5px 0;
 }

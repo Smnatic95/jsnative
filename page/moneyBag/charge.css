@@ -1,0 +1,112 @@
+body {
+    min-height: 100vh;
+    background-color: #F5F5F5;
+}
+
+nav {
+    background: linear-gradient(to bottom, #8E84FF, #70A8FD);
+    color: #fff;
+    padding: 20rem;
+}
+
+nav .desc {
+    font-size: 12rem;
+    margin-top: 8rem;
+}
+
+section.chargeIpt {
+    width: 95vw;
+    margin: 10rem auto;
+    background-color: #fff;
+    border-radius: 15rem;
+    padding: 15rem;
+}
+
+section.chargeIpt .title {
+    font-size: 14rem;
+    padding-bottom: 10rem;
+}
+
+section.chargeIpt .iptBox {
+    display: flex;
+    align-items: center;
+}
+
+section.chargeIpt .iptBox .iconfont {
+    font-size: 24rem;
+}
+
+section.chargeIpt .iptBox input {
+    padding-left: 10rem;
+    border: none;
+    margin: 0;
+    border-bottom: 1rem solid #eee;
+}
+
+.SetMeals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #fff;
+    padding-top: 20rem;
+}
+
+.SetMeals .setMeal {
+    display: flex;
+    justify-content: space-between;
+    width: 43%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color:#F1F6FB;
+    border-radius: 15rem;
+    padding: 5rem 10rem;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+
+.SetMeals .setMeal .xuNiCoin{
+    display: flex;
+    align-items: center;
+}
+
+.SetMeals .setMeal .xuNiCoin img.coin{
+    width:30rem;
+    height: 30rem;
+    margin-right: 5rem;
+}
+
+
+.SetMeals .setMeal .costs{
+    color: gray;
+}
+
+.SetMeals .setMeal .costs .iconfont{
+    font-size: 14rem;
+}
+
+
+.SetMeals .setMeal.sel{
+    background-color: #ECF2FF;
+    border: 1px solid #9EADB4;
+}
+
+.toPay{
+    width: 80vw;
+    height: 40rem;
+    text-align: center;
+    line-height: 40rem;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    background-color: #8FC6FC;
+    color: #eee;
+    transform: translate(-50%,-20rem);
+    border-radius: 25rem;
+}
+
+
+.toPay.can{
+    background-color:var(--myBlue);
+    color: #fff;
+}
