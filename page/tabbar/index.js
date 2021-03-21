@@ -65,7 +65,7 @@ function checkForm() {
     formValue.remark = $('#remark').val();
     console.log(formValue);
     if(formValue.fType=="指定"){
-        document.location.href = '../keFuList/index.html'
+        document.location.href = '../kefu/list.html'
     }
     return false
 }

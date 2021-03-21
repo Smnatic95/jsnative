@@ -55,6 +55,15 @@ section.Balance .coinBox .cnt .info {
     margin-left: 15rem;
 }
 
+section.Balance .coinBox .cnt .detail .num .iconfont{
+    font-size: 12rem;
+}
+
+section.Balance .coinBox .cnt .detail .operation{
+    display: flex;
+    justify-content: flex-end;
+}
+
 section.Balance .coinBox .cnt .detail .operation .charge {
     display: inline-block;
     width: 40rem;

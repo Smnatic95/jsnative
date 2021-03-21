@@ -1,0 +1,229 @@
+body {
+    background-color: #419DFF;
+    padding-bottom: 60rem;
+}
+
+.mui-poppicker,.mui-dtpicker,.mui-picker,.mui-dtpicker-title h5{
+    background: #fff;
+}
+
+.mui-dtpicker-body{
+    font-size: 14rem;
+}
+
+.mui-pciker-list li{
+    font-size: 12rem;
+}
+
+.ptitle {
+    color: #fff;
+    font-size: 17rem;
+    text-align: center;
+    padding: 20rem 0;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+section.form {
+    background-color: #fff;
+    padding: 10rem 10rem;
+    border-radius: 10rem;
+}
+
+section.form .iptItem {
+    display: flex;
+    padding: 10rem 0;
+    align-items: center;
+}
+
+section.form .iptItem.fs {
+    align-items: flex-start;
+}
+
+section.form .iptItem>.toa {
+    width: 25%;
+    text-align: left;
+    font-size: 14rem;
+}
+
+.toa.required::before {
+    content: '*';
+    color: red;
+    font-size: 18rem;
+}
+
+section.form .iptItem .pull_right {
+    width: 75%;
+}
+
+section.form .iptItem .pull_right.arrowRightFont{
+    position: relative;
+}
+
+section.form .iptItem .pull_right.arrowRightFont::after{
+    content: '\e612';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+section.form .iptItem .pull_right .common {
+    width: 100%;
+    margin-bottom: 0;
+    height: 30rem;
+    font-size: 14rem;
+    border: none;
+    padding-left: 0;
+}
+
+section.form .iptItem .pull_right .common::placeholder {
+    color: #7E89AB;
+}
+
+section.form {
+    margin-bottom: 30rem;
+}
+
+textarea#PWintro {
+    height: 100rem;
+    font-size: 14rem;
+    margin: 0;
+    border-radius: 8rem;
+}
+
+.iptItem .pull_right.recording {
+    padding-right: 100rem;
+    height: 100rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iptItem .pull_right.recording .startBtn {
+    width: 55rem;
+    height: 55rem;
+    border-radius: 50%;
+    background-color: #59D7C8;
+    position: relative;
+}
+
+.iptItem .pull_right.recording>.toa {
+    color: gray;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 14rem;
+}
+
+.iptItem .pull_right.recording .startBtn .cycle {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iptItem .pull_right.recording .startBtn .cycle>div {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 5rem;
+}
+
+.iptItem .pull_right.recording .startBtn .cycle.shu {
+    flex-direction: column;
+}
+
+.iptItem .pull_right.recording .startBtn .cycle.shu>div {
+    margin-bottom: 5rem;
+    margin-right: 0;
+}
+
+.iptItem .pull_right.recording .startBtn .cycle>div:last-of-type {
+    margin: 0;
+}
+
+section.form.uploadImgs>.topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+
+section.form.uploadImgs>.topbar .limitc {
+    color: gray;
+}
+
+section.OrdersType .topbar{
+    padding: 10rem 0;
+}
+
+section.form.OrdersType .types>.type{
+   padding-bottom: 5rem;
+}
+
+section.form.OrdersType .types>.type label{
+    margin-left: 5rem;
+}
+
+.uimgs_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.uimgs_box>div {
+    width: 100rem;
+    height: 100rem;
+    border-radius: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.uimgs_box>div:nth-child(3n){
+    margin-right: 0;
+}
+
+.uimgs_box>div>img{
+    width: 100%;
+}
+
+.uimgs_box .operation {
+    background-color: #F7F8FA;
+    font-size: 45rem;
+    color: #555;
+}
+
+.operation_bottom {
+    width: 100%;
+    height: 60rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    box-shadow: 1px 1px 15px #ccc;
+}
+
+.operation_bottom .submit{
+    width: 40vw;
+    margin: 0 auto;
+    height: 40rem;
+    line-height: 40rem;
+    box-shadow: 1px 1px 10px #247FDC;
+    text-align: center;
+    color: #fff;
+    border-top: 2px solid #fff;
+    border-radius: 60rem;
+    background-color: #419BFB;
+}

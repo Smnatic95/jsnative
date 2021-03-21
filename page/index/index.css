@@ -1,5 +1,7 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #EEEEF8;
+    padding-top: 40rem;
+    padding-bottom: 15rem;
 }
 
 /* 
@@ -15,6 +17,36 @@ body {
     height: 100%;
 }
 
+.mzSearch{
+    width: 100vw;
+    background: #FF6838;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.mzSearch .box{
+    width: 90%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 15rem;
+    overflow: hidden;
+}
+
+.mzSearch .box input{
+    width: 90%;
+    height: 100%;
+    background-color: #fff;
+    margin-bottom: 0;
+    font-size: 14rem;
+    border: none;
+}
+
 
 /* 
    *公告
@@ -24,8 +56,8 @@ body {
     padding-left: 10rem;
     height: 30rem;
     line-height: 30rem;
-    margin: 10rem 0;
     background-color: #fff;
+    border-bottom: 1px solid #eee;
 }
 
 .gongGao .pull_left {
@@ -56,10 +88,13 @@ body {
  */
 
  section .title{
-    font-size: 22rem;
-    padding-bottom: 5rem;
-    padding-left: 10rem;
-    padding-top: 5rem;
+    font-size: 18rem;
+    padding: 10rem;
+ }
+
+ .cat_box{
+     background-color: #fff;
+     padding: 10rem 0;
  }
 
 .cat_box .categorys {
@@ -67,7 +102,6 @@ body {
     display: flex;
     overflow: auto;
     background-color: #fff;
-    padding: 15rem 0;
 }
 
 .cat_box .categorys::-webkit-scrollbar {
@@ -84,6 +118,8 @@ body {
     text-align: center;
     font-size: 16rem;
     border-radius: 5rem;
+    background-color: #EBF1FA;
+    color: #555;
 }
 
 /*

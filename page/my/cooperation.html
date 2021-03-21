@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商务合作</title>
+    <script src="../../static/util/rem.js"></script>
+    <link rel="stylesheet" href="../../static/mui/css/mui.min.css">
+    <link rel="stylesheet" href="../../static/mui/css/mui.picker.min.css">
+    <link rel="stylesheet" href="../../app.css">
+    <link rel="stylesheet" href="./cooperation.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="ptitle">新店员申请资料</div>
+        <section class="form">
+            <div class="iptItem">
+                <div class="toa required">
+                    昵称
+                </div>
+                <div class="pull_right">
+                    <input class="common" type="text" placeholder="请输入圈名">
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="toa required">
+                    性别
+                </div>
+                <div class="pull_right">
+                    <input type="radio" name="sex" value="man"> 男
+                    <input type="radio" name="sex" value="nv"> 女
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="toa required">
+                    年龄
+                </div>
+                <div class="pull_right iconfont arrowRightFont">
+                    <input onclick="pickDate(this)" class="common" type="text" placeholder="请选择出生年月" readonly>
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="toa required">
+                    所在城市
+                </div>
+                <div class="pull_right iconfont arrowRightFont">
+                    <input onclick="pickCity(this)" class="common" type="text" placeholder="请选择所在城市" readonly>
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="toa required">
+                    个性签名
+                </div>
+                <div class="pull_right">
+                    <input class="common" type="text" placeholder="请输入个性签名">
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="iptItem fs">
+                <div class="toa required">
+                    陪玩简介
+                </div>
+                <div class="pull_right iconfont">
+                    <textarea placeholder="具体介绍陪玩事项" name="" id="PWintro" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="iptItem">
+                <div class="toa required">
+                    微信号
+                </div>
+                <div class="pull_right">
+                    <input class="common" type="text" placeholder="请输入您的微信号">
+                </div>
+            </div>
+        </section>
+        <section class="form">
+            <div class="iptItem fs">
+                <div class="toa required">
+                    录音
+                </div>
+                <div class="pull_right recording">
+                    <div class="startBtn">
+                        <div class="cycle">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                        <div class="cycle shu">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="toa">点击开始录音</div>
+                </div>
+            </div>
+        </section>
+        <section class="form uploadImgs">
+            <div class="topbar">
+                <div class="toa required">
+                    上传图片
+                </div>
+                <div class="limitc">
+                    0/4
+                </div>
+            </div>
+            <div class="uimgs_box">
+                <div>
+                    <img src="../../static/temp/avator_Nv.jpg" alt="">
+                </div>
+                <div>
+                    <img src="../../static/temp/avator_Nv.jpg" alt="">
+                </div>
+                <div>
+                    <img src="../../static/temp/avator_Nv.jpg" alt="">
+                </div>
+                <div>
+                    <img src="../../static/temp/avator_Nv.jpg" alt="">
+                </div>
+                <div class="operation">+</div>
+            </div>
+        </section>
+        <section class="form OrdersType">
+            <div class="topbar">
+                <div class="toa required">
+                    接单类型 (多选)
+                </div>
+            </div>
+            <div class="types">
+                <div class="type">
+                    <input name="OrdersType" type="checkbox"><label>暖心树洞</label>
+                </div>
+                <div class="type">
+                    <input name="OrdersType"  type="checkbox"><label>恋爱体验</label>
+                </div>
+                <div class="type">
+                    <input name="OrdersType"  type="checkbox"><label>连麦</label>
+                </div>
+            </div>
+        </section>
+        <div class="operation_bottom">
+            <div class="submit">提交申请</div>
+        </div>
+    </div>
+    <script src="../../static/mui/js/mui.js"></script>
+    <script src="../../static/mui/js/mui.picker.min.js"></script>
+    <script src="../../static/util/jquery.min.js"></script>
+    <script src="../../static/util/area.js"></script>
+    <script src="./cooperation.js"></script>
+</body>
+
+</html>
