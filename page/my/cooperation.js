@@ -38,3 +38,11 @@ function pickCity(_this) {
         $(_this).val(selectItems[0].value + selectItems[1].value);
     })
 }
+
+
+
+$(function(){
+    $('.submit').on('click',function(){
+        mui.alert('提交成功,请等待审核','提示');
+    })
+})

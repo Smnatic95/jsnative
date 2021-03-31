@@ -1,7 +1,55 @@
+.cateMenus {
+    /* background-color: #fff; */
+    height: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.cateMenus>div {
+    font-size: 16rem;
+    margin: 0 12rem;
+    transition: all ease-in .05s;
+}
+
+.cateMenus>div.sel {
+    font-size: 21rem;
+    color: #F36E9F;
+    position: relative;
+}
+
+.cateMenus>div.sel::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 70%;
+    height: 2rem;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 7rem);
+    background-color: #F36E9F;
+}
+
+.mescroll {
+    position: fixed;
+    top: 50rem;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 40rem;
+    height: calc(100vh - 105rem);
+    /*如设置bottom:50px,则需height:auto才能生效*/
+}
+
+.voiceControls{
+    transform: scale(.8);
+}
+
 
 .shows {
     width: 90vw;
     margin: 0 auto;
+    padding-top: 15rem;
 }
 
 .shows>.show {
@@ -20,7 +68,11 @@
     padding: 5rem 8rem;
     border: 2rem solid #EB3941;
     justify-content: space-between;
-    margin: 10rem 0;
+    margin-top: 10rem;
+}
+
+.shows.audio>.show:first-of-type {
+    margin-top: 0;
 }
 
 .shows.audio>.show:nth-of-type(even) {
@@ -42,6 +94,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.shows.hide {
+    display: none;
 }
 
 .shows.video .show {

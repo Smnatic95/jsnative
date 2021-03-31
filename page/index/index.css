@@ -4,6 +4,13 @@ body {
     padding-bottom: 15rem;
 }
 
+.mescroll {
+    position: fixed;
+    top: 40rem;
+    bottom: 0;
+    padding-bottom: 30rem;
+}
+
 /* 
    *轮播
  */
@@ -17,7 +24,7 @@ body {
     height: 100%;
 }
 
-.mzSearch{
+.mzSearch {
     width: 100vw;
     background: #FF6838;
     height: 40rem;
@@ -30,7 +37,7 @@ body {
     z-index: 999;
 }
 
-.mzSearch .box{
+.mzSearch .box {
     width: 90%;
     height: 80%;
     background-color: #fff;
@@ -38,7 +45,7 @@ body {
     overflow: hidden;
 }
 
-.mzSearch .box input{
+.mzSearch .box input {
     width: 90%;
     height: 100%;
     background-color: #fff;
@@ -66,7 +73,7 @@ body {
     color: var(--themeColor);
 }
 
-.gongGao .pull_left .icon-laba{
+.gongGao .pull_left .icon-laba {
     font-size: 23rem;
 }
 
@@ -81,45 +88,6 @@ body {
     white-space: nowrap;
     padding-right: 300px;
     margin-bottom: 0;
-}
-
-/* 
-   *分类
- */
-
- section .title{
-    font-size: 18rem;
-    padding: 10rem;
- }
-
- .cat_box{
-     background-color: #fff;
-     padding: 10rem 0;
- }
-
-.cat_box .categorys {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    background-color: #fff;
-}
-
-.cat_box .categorys::-webkit-scrollbar {
-    display: none;
-}
-
-.cat_box .categorys>div {
-    flex-shrink: 0;
-    width: 15%;
-    padding: 0 10rem;
-    box-sizing: border-box;
-    margin: 0 10rem;
-    border: 1px solid #ccc;
-    text-align: center;
-    font-size: 16rem;
-    border-radius: 5rem;
-    background-color: #EBF1FA;
-    color: #555;
 }
 
 /*

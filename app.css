@@ -3,6 +3,46 @@ body {
   --myBlue: #006CFF
 }
 
+/* 
+   *分类
+ */
+
+ section .title{
+  font-size: 18rem;
+  padding-top: 4rem;
+}
+
+.cat_box{
+   background-color: #fff;
+}
+
+.cat_box .categorys {
+  width: 100%;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+  background-color: #fff;
+}
+
+.cat_box .categorys::-webkit-scrollbar {
+  display: none;
+}
+
+.cat_box .categorys>div {
+  flex-shrink: 0;
+  width: 15%;
+  padding: 0 10rem;
+  box-sizing: border-box;
+  margin: 0 10rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 16rem;
+  border-radius: 5rem;
+  background-color: #EBF1FA;
+  color: #555;
+}
+
 .sex.iconfont.icon-nv {
   background-color: #F36E9F;
 }
